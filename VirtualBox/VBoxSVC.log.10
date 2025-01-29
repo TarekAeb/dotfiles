@@ -1,0 +1,129 @@
+00:00:00.000491 main     VirtualBox XPCOM Server 7.1.4 r165100 linux.amd64 (Dec 25 2024 18:38:04) release log
+00:00:00.000493 main     Log opened 2025-01-07T07:58:10.116389000Z
+00:00:00.000493 main     Build Type: release
+00:00:00.000495 main     OS Product: Linux
+00:00:00.000496 main     OS Release: 6.12.8-arch1-1
+00:00:00.000496 main     OS Version: #1 SMP PREEMPT_DYNAMIC Thu, 02 Jan 2025 22:52:26 +0000
+00:00:00.000530 main     DMI Product Name: Victus by HP Gaming Laptop 15-fa1xxx
+00:00:00.000540 main     DMI Product Version: 
+00:00:00.000546 main     Firmware type: UEFI
+00:00:00.000829 main     Secure Boot: Disabled
+00:00:00.000868 main     Host RAM: 15626MB (15.2GB) total, 12908MB (12.6GB) available
+00:00:00.000871 main     Executable: /usr/lib/virtualbox/VBoxSVC
+00:00:00.000871 main     Process ID: 3960
+00:00:00.000871 main     Package type: LINUX_64BITS_GENERIC (OSE)
+00:00:00.002637 main     IPC socket path: /tmp/.vbox-robot-ipc/ipcd
+00:00:00.024616 DCon01   VirtualBox: object creation starts
+00:00:00.024684 DCon01   Home directory: '/home/robot/.config/VirtualBox'
+00:00:00.024912 DCon01   Loading settings file "/home/robot/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:00:00.026199 DCon01   USB: Unknown USB device detected (idVendor: 0x30fa, idProduct: 0x0400)
+00:00:00.026308 DCon01   Successfully initialised host USB using sysfs
+00:00:00.034353 DCon01   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link speed for wlo1: VBoxNetAdpCtl: ioctl failed: Operation not supported
+00:00:00.044356 DCon01   HostDnsMonitor: initializing
+00:00:00.044626 DCon01   NAT: resolv.conf: nameserver 208.67.222.123
+00:00:00.044628 DCon01   NAT: resolv.conf: nameserver 1.1.1.3
+00:00:00.044632 DCon01   HostDnsMonitor: updating information
+00:00:00.044635 DCon01   HostDnsMonitor: old information
+00:00:00.044636 DCon01     no server entries
+00:00:00.044636 DCon01     no domain set
+00:00:00.044637 DCon01     no search string entries
+00:00:00.044637 DCon01   HostDnsMonitor: new information
+00:00:00.044638 DCon01     server 1: 208.67.222.123
+00:00:00.044639 DCon01     server 2: 1.1.1.3
+00:00:00.044639 DCon01     no domain set
+00:00:00.044640 DCon01     no search string entries
+00:00:00.045751 DCon01   VD: VDInit finished with VINF_SUCCESS
+00:00:00.048269 DCon01   Platform architecture set to 'x86'
+00:00:00.049435 DCon01   Loading settings file "/home/robot/VirtualBox VMs/Oracle Database 23ai Free/Oracle Database 23ai Free.vbox" with version "1.19-linux"
+00:00:00.049551 DCon01   Platform architecture set to 'x86'
+00:00:00.049642 DCon01   Platform architecture set to 'x86'
+00:00:00.050433 DCon01   Loading settings file "/home/robot/VirtualBox VMs/kali/kali.vbox" with version "1.19-linux"
+00:00:00.050536 DCon01   Platform architecture set to 'x86'
+00:00:00.051084 DCon01   OCI: Local config file '/home/robot/.config/VirtualBox/oci_config' does not exist
+00:00:00.051090 DCon01   OCI: Original config file '/home/robot/.oci/config' does not exist
+00:00:00.051090 DCon01   OCI: Reading profiles finished with status NS_OK
+00:00:00.051092 DCon01   ExtPack: Created cloud provider 'OCI' (hrc=NS_OK)
+00:00:00.051109 DCon01   VirtualBox: object created
+00:00:00.597042 DCon07   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:00:00.674881 DCon07   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is PoweredOff)}, preserve=false aResultDetail=0
+00:00:01.350969 DCon14   Saving settings file "/home/robot/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:00:01.353199 DCon14   Finished saving settings file "/home/robot/.config/VirtualBox/VirtualBox.xml"
+00:00:02.094747 DCon11   Saving settings file "/home/robot/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:00:02.101734 DCon11   Finished saving settings file "/home/robot/.config/VirtualBox/VirtualBox.xml"
+00:00:02.115310 DCon07   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:00:02.129695 DCon07   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is PoweredOff)}, preserve=false aResultDetail=0
+00:00:02.591459 DCon07   Saving settings file "/home/robot/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:00:02.598177 DCon07   Finished saving settings file "/home/robot/.config/VirtualBox/VirtualBox.xml"
+00:00:03.215599 DCon14   Saving settings file "/home/robot/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:00:03.222031 DCon14   Finished saving settings file "/home/robot/.config/VirtualBox/VirtualBox.xml"
+00:00:03.498955 DCon07   Launched VM: 2550147120 pid: 4034 (0xfc2) frontend: GUI/Qt name: Oracle Database 23ai Free
+00:00:03.549601 DCon07   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:00:03.560227 DCon07   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:00:03.575357 DCon07   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is PoweredOff)}, preserve=false aResultDetail=0
+00:00:03.709189 DCon02   Platform architecture set to 'x86'
+00:00:03.737730 DCon07   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:00:03.742503 DCon07   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is PoweredOff)}, preserve=false aResultDetail=0
+00:00:04.063456 DCon12   Load [/usr/lib/virtualbox/ExtensionPacks/Oracle_VirtualBox_Extension_Pack/linux.amd64/VBoxHostWebcam.so] vrc=VINF_SUCCESS
+00:00:04.229384 DCon07   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={bea3ef5c-de2f-4b74-aa3a-15d6249371a0} aComponent={RecordingSettingsWrap} aText={Recording not started}, preserve=false aResultDetail=0
+00:00:04.259955 DCon23   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link speed for wlo1: VBoxNetAdpCtl: ioctl failed: Operation not supported
+00:00:04.338743 DCon12   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:00:04.343183 DCon12   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={bea3ef5c-de2f-4b74-aa3a-15d6249371a0} aComponent={RecordingSettingsWrap} aText={Recording not started}, preserve=false aResultDetail=0
+00:00:04.347722 DCon12   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Starting)}, preserve=false aResultDetail=0
+00:00:04.480935 DCon12   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={7d510820-a678-4730-a862-818dcd3fbed0} aComponent={MediumWrap} aText={Property 'CRYPT/KeyId' does not exist}, preserve=false aResultDetail=0
+00:00:04.481774 DCon12   HostDnsMonitorProxy::GetDomainName: no domain set
+00:00:04.481866 DCon12   HostDnsMonitorProxy::GetNameServers:
+00:00:04.481868 DCon12     name server 1: 208.67.222.123
+00:00:04.481870 DCon12     name server 2: 1.1.1.3
+00:00:04.481942 DCon12   HostDnsMonitorProxy::GetSearchStrings:
+00:00:04.481944 DCon12     no search string entries
+00:00:04.494837 DCon12   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={bea3ef5c-de2f-4b74-aa3a-15d6249371a0} aComponent={RecordingSettingsWrap} aText={Recording not started}, preserve=false aResultDetail=0
+00:00:04.528684 DCon23   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:00:04.555976 DCon12   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Running)}, preserve=false aResultDetail=0
+00:00:05.045316 DCon12   Saving settings file "/home/robot/VirtualBox VMs/Oracle Database 23ai Free/Oracle Database 23ai Free.vbox" with version "1.19-linux"
+00:00:05.047747 DCon12   Finished saving settings file "/home/robot/VirtualBox VMs/Oracle Database 23ai Free/Oracle Database 23ai Free.vbox"
+00:00:05.055490 DCon01   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:00:05.092859 DCon01   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Running)}, preserve=false aResultDetail=0
+00:00:07.361095 DCon12   Saving settings file "/home/robot/VirtualBox VMs/Oracle Database 23ai Free/Oracle Database 23ai Free.vbox" with version "1.19-linux"
+00:00:07.367813 DCon12   Finished saving settings file "/home/robot/VirtualBox VMs/Oracle Database 23ai Free/Oracle Database 23ai Free.vbox"
+00:00:08.629708 DCon23   Saving settings file "/home/robot/VirtualBox VMs/Oracle Database 23ai Free/Oracle Database 23ai Free.vbox" with version "1.19-linux"
+00:00:08.631119 DCon23   Finished saving settings file "/home/robot/VirtualBox VMs/Oracle Database 23ai Free/Oracle Database 23ai Free.vbox"
+00:00:09.036290 DCon14   Saving settings file "/home/robot/VirtualBox VMs/Oracle Database 23ai Free/Oracle Database 23ai Free.vbox" with version "1.19-linux"
+00:00:09.037729 DCon14   Finished saving settings file "/home/robot/VirtualBox VMs/Oracle Database 23ai Free/Oracle Database 23ai Free.vbox"
+00:00:13.360185 DCon14   Saving settings file "/home/robot/VirtualBox VMs/Oracle Database 23ai Free/Oracle Database 23ai Free.vbox" with version "1.19-linux"
+00:00:13.366849 DCon14   Finished saving settings file "/home/robot/VirtualBox VMs/Oracle Database 23ai Free/Oracle Database 23ai Free.vbox"
+00:00:16.234824 DCon12   Saving settings file "/home/robot/VirtualBox VMs/Oracle Database 23ai Free/Oracle Database 23ai Free.vbox" with version "1.19-linux"
+00:00:16.236225 DCon12   Finished saving settings file "/home/robot/VirtualBox VMs/Oracle Database 23ai Free/Oracle Database 23ai Free.vbox"
+00:03:28.380739 DCon36   Saving settings file "/home/robot/VirtualBox VMs/Oracle Database 23ai Free/Oracle Database 23ai Free.vbox" with version "1.19-linux"
+00:03:28.387343 DCon36   Finished saving settings file "/home/robot/VirtualBox VMs/Oracle Database 23ai Free/Oracle Database 23ai Free.vbox"
+00:03:28.856625 DCon14   Saving settings file "/home/robot/VirtualBox VMs/Oracle Database 23ai Free/Oracle Database 23ai Free.vbox" with version "1.19-linux"
+00:03:28.860111 DCon14   Finished saving settings file "/home/robot/VirtualBox VMs/Oracle Database 23ai Free/Oracle Database 23ai Free.vbox"
+00:19:26.150228 DCon62   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={bea3ef5c-de2f-4b74-aa3a-15d6249371a0} aComponent={RecordingSettingsWrap} aText={Recording not started}, preserve=false aResultDetail=0
+00:19:27.978401 DCon62   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={bea3ef5c-de2f-4b74-aa3a-15d6249371a0} aComponent={RecordingSettingsWrap} aText={Recording not started}, preserve=false aResultDetail=0
+00:21:13.890779 DCon68   Saving settings file "/home/robot/VirtualBox VMs/Oracle Database 23ai Free/Oracle Database 23ai Free.vbox" with version "1.19-linux"
+00:21:13.892624 DCon68   Finished saving settings file "/home/robot/VirtualBox VMs/Oracle Database 23ai Free/Oracle Database 23ai Free.vbox"
+00:21:14.364793 DCon72   Saving settings file "/home/robot/VirtualBox VMs/Oracle Database 23ai Free/Oracle Database 23ai Free.vbox" with version "1.19-linux"
+00:21:14.366732 DCon72   Finished saving settings file "/home/robot/VirtualBox VMs/Oracle Database 23ai Free/Oracle Database 23ai Free.vbox"
+00:21:15.188858 DCon71   Saving settings file "/home/robot/VirtualBox VMs/Oracle Database 23ai Free/Oracle Database 23ai Free.vbox" with version "1.19-linux"
+00:21:15.190941 DCon71   Finished saving settings file "/home/robot/VirtualBox VMs/Oracle Database 23ai Free/Oracle Database 23ai Free.vbox"
+00:21:15.667150 DCon71   Saving settings file "/home/robot/VirtualBox VMs/Oracle Database 23ai Free/Oracle Database 23ai Free.vbox" with version "1.19-linux"
+00:21:15.673615 DCon71   Finished saving settings file "/home/robot/VirtualBox VMs/Oracle Database 23ai Free/Oracle Database 23ai Free.vbox"
+00:21:49.942117 DCon74   Saving settings file "/home/robot/VirtualBox VMs/Oracle Database 23ai Free/Oracle Database 23ai Free.vbox" with version "1.19-linux"
+00:21:49.943679 DCon74   Finished saving settings file "/home/robot/VirtualBox VMs/Oracle Database 23ai Free/Oracle Database 23ai Free.vbox"
+00:21:49.954410 DCon74   Saving settings file "/home/robot/VirtualBox VMs/Oracle Database 23ai Free/Oracle Database 23ai Free.vbox" with version "1.19-linux"
+00:21:49.956039 DCon74   Finished saving settings file "/home/robot/VirtualBox VMs/Oracle Database 23ai Free/Oracle Database 23ai Free.vbox"
+00:53:43.690970 DCon143  Saving settings file "/home/robot/VirtualBox VMs/Oracle Database 23ai Free/Oracle Database 23ai Free.vbox" with version "1.19-linux"
+00:53:43.697918 DCon143  Finished saving settings file "/home/robot/VirtualBox VMs/Oracle Database 23ai Free/Oracle Database 23ai Free.vbox"
+00:53:43.706417 DCon138  Saving settings file "/home/robot/VirtualBox VMs/Oracle Database 23ai Free/Oracle Database 23ai Free.vbox" with version "1.19-linux"
+00:53:43.708335 DCon138  Finished saving settings file "/home/robot/VirtualBox VMs/Oracle Database 23ai Free/Oracle Database 23ai Free.vbox"
+00:53:53.377040 DCon141  ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={bea3ef5c-de2f-4b74-aa3a-15d6249371a0} aComponent={RecordingSettingsWrap} aText={Recording not started}, preserve=false aResultDetail=0
+00:53:53.509405 DCon141  Saving settings file "/home/robot/VirtualBox VMs/Oracle Database 23ai Free/Oracle Database 23ai Free.vbox" with version "1.19-linux"
+00:53:53.511052 DCon141  Finished saving settings file "/home/robot/VirtualBox VMs/Oracle Database 23ai Free/Oracle Database 23ai Free.vbox"
+00:53:53.525358 DCon141  ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={bea3ef5c-de2f-4b74-aa3a-15d6249371a0} aComponent={RecordingSettingsWrap} aText={Recording not started}, preserve=false aResultDetail=0
+00:53:53.526801 DCon141  ERROR [COM]: aRC=NS_ERROR_INVALID_ARG (0x80070057) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={SessionMachine} aText={Properties with TRANSIENT or TRANSRESET flag cannot be set or modified if VM is not running}, preserve=false aResultDetail=0
+00:54:00.027293 main     VirtualBox: object deletion starts
+00:54:00.027365 main     ERROR [COM]: aRC=VBOX_E_OBJECT_IN_USE (0x80bb000c) aIID={7d510820-a678-4730-a862-818dcd3fbed0} aComponent={MediumWrap} aText={Medium '/home/robot/VirtualBox VMs/Oracle Database 23ai Free/Oracle Database 23ai Free-disk001.vdi' cannot be closed because it is still attached to 1 virtual machines}, preserve=false aResultDetail=0
+00:54:00.027614 main     ERROR [COM]: aRC=VBOX_E_OBJECT_IN_USE (0x80bb000c) aIID={7d510820-a678-4730-a862-818dcd3fbed0} aComponent={MediumWrap} aText={Medium '/mnt/Shared/kali/kali.vdi' cannot be closed because it is still attached to 1 virtual machines}, preserve=false aResultDetail=0
+00:54:00.028288 main     HostDnsMonitor: shutting down ...
+00:54:00.029053 main     HostDnsMonitor: shut down
+00:54:00.041747 Watcher  ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={d644ad1e-c501-4fc7-9ab6-aa6d763bc540} aComponent={VirtualBoxWrap} aText={The object is not ready}, preserve=false aResultDetail=0
+00:54:00.042009 main     VirtualBox: object deleted

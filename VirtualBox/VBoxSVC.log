@@ -1,0 +1,90 @@
+00:00:00.000240 main     VirtualBox XPCOM Server 7.1.6 r167084 linux.amd64 (Jan 27 2025 07:52:25) release log
+00:00:00.000243 main     Log opened 2025-01-28T15:25:31.650042000Z
+00:00:00.000243 main     Build Type: release
+00:00:00.000246 main     OS Product: Linux
+00:00:00.000247 main     OS Release: 6.12.10-arch1-1
+00:00:00.000247 main     OS Version: #1 SMP PREEMPT_DYNAMIC Sat, 18 Jan 2025 02:26:57 +0000
+00:00:00.000282 main     DMI Product Name: Victus by HP Gaming Laptop 15-fa1xxx
+00:00:00.000288 main     DMI Product Version: 
+00:00:00.000297 main     Firmware type: UEFI
+00:00:00.000517 main     Secure Boot: Disabled
+00:00:00.000544 main     Host RAM: 15626MB (15.2GB) total, 8578MB (8.3GB) available
+00:00:00.000547 main     Executable: /usr/lib/virtualbox/VBoxSVC
+00:00:00.000547 main     Process ID: 115451
+00:00:00.000547 main     Package type: LINUX_64BITS_GENERIC (OSE)
+00:00:00.001822 main     IPC socket path: /tmp/.vbox-robot-ipc/ipcd
+00:00:00.019371 DCon01   VirtualBox: object creation starts
+00:00:00.019426 DCon01   Home directory: '/home/robot/.config/VirtualBox'
+00:00:00.019522 DCon01   Loading settings file "/home/robot/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:00:00.020598 DCon01   Successfully initialised host USB using sysfs
+00:00:00.032262 DCon01   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link speed for wlo1: VBoxNetAdpCtl: ioctl failed: Operation not supported
+00:00:00.032829 DCon01   HostDnsMonitor: initializing
+00:00:00.033237 DCon01   NAT: resolv.conf: nameserver 8.8.8.8
+00:00:00.033244 DCon01   HostDnsMonitor: updating information
+00:00:00.033251 DCon01   HostDnsMonitor: old information
+00:00:00.033251 DCon01     no server entries
+00:00:00.033252 DCon01     no domain set
+00:00:00.033253 DCon01     no search string entries
+00:00:00.033253 DCon01   HostDnsMonitor: new information
+00:00:00.033254 DCon01     server 1: 8.8.8.8
+00:00:00.033254 DCon01     no domain set
+00:00:00.033255 DCon01     no search string entries
+00:00:00.034434 DCon01   VD: VDInit finished with VINF_SUCCESS
+00:00:00.034868 DCon01   Platform architecture set to 'x86'
+00:00:00.035126 DCon01   Loading settings file "/home/robot/VirtualBox VMs/kali/kali.vbox" with version "1.19-linux"
+00:00:00.035248 DCon01   Platform architecture set to 'x86'
+00:00:00.035516 DCon01   VirtualBox: object created
+00:00:00.508058 DCon04   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:00:00.577790 DCon04   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is PoweredOff)}, preserve=false aResultDetail=0
+00:00:01.261233 DCon05   Saving settings file "/home/robot/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:00:01.268417 DCon05   Finished saving settings file "/home/robot/.config/VirtualBox/VirtualBox.xml"
+00:00:03.768252 DCon03   Launched VM: 2550142352 pid: 115525 (0x1c345) frontend: GUI/Qt name: kali
+00:00:03.802699 DCon05   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:00:03.821306 DCon05   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is PoweredOff)}, preserve=false aResultDetail=0
+00:00:03.833376 DCon05   Saving settings file "/home/robot/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:00:03.839707 DCon05   Finished saving settings file "/home/robot/.config/VirtualBox/VirtualBox.xml"
+00:00:03.967890 DCon06   Platform architecture set to 'x86'
+00:00:03.982526 DCon04   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:00:03.985786 DCon04   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is PoweredOff)}, preserve=false aResultDetail=0
+00:00:04.305452 DCon08   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={70401eef-c8e9-466b-9660-45cb3e9979e4} aComponent={ExtPackManagerWrap} aText={No extension pack by the name 'Oracle VirtualBox Extension Pack' was found}, preserve=false aResultDetail=0
+00:00:04.334903 DCon04   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={bea3ef5c-de2f-4b74-aa3a-15d6249371a0} aComponent={RecordingSettingsWrap} aText={Recording not started}, preserve=false aResultDetail=0
+00:00:04.373376 DCon08   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link speed for wlo1: VBoxNetAdpCtl: ioctl failed: Operation not supported
+00:00:04.468903 DCon05   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:00:04.483186 DCon05   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Starting)}, preserve=false aResultDetail=0
+00:00:04.487358 DCon05   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={bea3ef5c-de2f-4b74-aa3a-15d6249371a0} aComponent={RecordingSettingsWrap} aText={Recording not started}, preserve=false aResultDetail=0
+00:00:04.545900 DCon05   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={7d510820-a678-4730-a862-818dcd3fbed0} aComponent={MediumWrap} aText={Property 'CRYPT/KeyId' does not exist}, preserve=false aResultDetail=0
+00:00:04.546591 DCon05   HostDnsMonitorProxy::GetDomainName: no domain set
+00:00:04.546668 DCon05   HostDnsMonitorProxy::GetNameServers:
+00:00:04.546670 DCon05     name server 1: 8.8.8.8
+00:00:04.546750 DCon05   HostDnsMonitorProxy::GetSearchStrings:
+00:00:04.546752 DCon05     no search string entries
+00:00:04.561950 DCon08   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={bea3ef5c-de2f-4b74-aa3a-15d6249371a0} aComponent={RecordingSettingsWrap} aText={Recording not started}, preserve=false aResultDetail=0
+00:00:04.588084 DCon08   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:00:04.611424 DCon08   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Running)}, preserve=false aResultDetail=0
+00:00:04.660385 DCon08   Saving settings file "/home/robot/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:00:04.666732 DCon08   Finished saving settings file "/home/robot/.config/VirtualBox/VirtualBox.xml"
+00:00:05.159525 DCon06   Saving settings file "/home/robot/VirtualBox VMs/kali/kali.vbox" with version "1.19-linux"
+00:00:05.174557 DCon06   Finished saving settings file "/home/robot/VirtualBox VMs/kali/kali.vbox"
+00:00:05.188455 DCon01   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:00:05.222201 DCon01   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Running)}, preserve=false aResultDetail=0
+00:00:07.526420 DCon02   Saving settings file "/home/robot/VirtualBox VMs/kali/kali.vbox" with version "1.19-linux"
+00:00:07.555453 DCon02   Finished saving settings file "/home/robot/VirtualBox VMs/kali/kali.vbox"
+00:15:06.653425 DCon41   Saving settings file "/home/robot/VirtualBox VMs/kali/kali.vbox" with version "1.19-linux"
+00:15:06.656813 DCon41   Finished saving settings file "/home/robot/VirtualBox VMs/kali/kali.vbox"
+00:15:06.667686 DCon42   Saving settings file "/home/robot/VirtualBox VMs/kali/kali.vbox" with version "1.19-linux"
+00:15:06.669657 DCon42   Finished saving settings file "/home/robot/VirtualBox VMs/kali/kali.vbox"
+00:17:19.481120 DCon45   Saving settings file "/home/robot/VirtualBox VMs/kali/kali.vbox" with version "1.19-linux"
+00:17:19.487630 DCon45   Finished saving settings file "/home/robot/VirtualBox VMs/kali/kali.vbox"
+00:17:19.493395 DCon43   Saving settings file "/home/robot/VirtualBox VMs/kali/kali.vbox" with version "1.19-linux"
+00:17:19.494921 DCon43   Finished saving settings file "/home/robot/VirtualBox VMs/kali/kali.vbox"
+00:36:53.483364 DCon87   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={bea3ef5c-de2f-4b74-aa3a-15d6249371a0} aComponent={RecordingSettingsWrap} aText={Recording not started}, preserve=false aResultDetail=0
+00:36:53.560809 DCon87   Saving settings file "/home/robot/VirtualBox VMs/kali/kali.vbox" with version "1.19-linux"
+00:36:53.563737 DCon87   Finished saving settings file "/home/robot/VirtualBox VMs/kali/kali.vbox"
+00:36:53.578638 DCon85   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={bea3ef5c-de2f-4b74-aa3a-15d6249371a0} aComponent={RecordingSettingsWrap} aText={Recording not started}, preserve=false aResultDetail=0
+00:36:53.580150 DCon85   ERROR [COM]: aRC=NS_ERROR_INVALID_ARG (0x80070057) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={SessionMachine} aText={Properties with TRANSIENT or TRANSRESET flag cannot be set or modified if VM is not running}, preserve=false aResultDetail=0
+00:36:59.571432 main     VirtualBox: object deletion starts
+00:36:59.571477 main     ERROR [COM]: aRC=VBOX_E_OBJECT_IN_USE (0x80bb000c) aIID={7d510820-a678-4730-a862-818dcd3fbed0} aComponent={MediumWrap} aText={Medium '/mnt/Shared/kali/kali.vdi' cannot be closed because it is still attached to 1 virtual machines}, preserve=false aResultDetail=0
+00:36:59.571977 main     HostDnsMonitor: shutting down ...
+00:36:59.572407 main     HostDnsMonitor: shut down
+00:36:59.584355 Watcher  ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={d644ad1e-c501-4fc7-9ab6-aa6d763bc540} aComponent={VirtualBoxWrap} aText={The object is not ready}, preserve=false aResultDetail=0
+00:36:59.584456 main     VirtualBox: object deleted
